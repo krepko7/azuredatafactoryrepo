@@ -1,0 +1,16 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathEndsWith": ".json",
+			"scope": "/subscriptions/612c1bfd-274b-4ef9-88e9-08d56f7a5e10/resourceGroups/ADF/providers/Microsoft.Storage/storageAccounts/kirbysgen2storage",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeKirby",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

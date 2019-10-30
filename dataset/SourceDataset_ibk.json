@@ -1,0 +1,70 @@
+{
+	"name": "SourceDataset_ibk",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Prod_Retail_Database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "BusinessEntityID",
+				"type": "int"
+			},
+			{
+				"name": "PersonType",
+				"type": "nchar"
+			},
+			{
+				"name": "NameStyle",
+				"type": "bit"
+			},
+			{
+				"name": "Title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FirstName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MiddleName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LastName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Suffix",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EmailPromotion",
+				"type": "int"
+			},
+			{
+				"name": "AdditionalContactInfo",
+				"type": "xml"
+			},
+			{
+				"name": "Demographics",
+				"type": "xml"
+			},
+			{
+				"name": "rowguid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "datetime"
+			}
+		],
+		"typeProperties": {
+			"schema": "Person",
+			"table": "Person"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
